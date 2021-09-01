@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/**": {
+      "memory": 1024,
+      "includeFiles": "templates/**"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.+)", "destination": "/api" }
+  ]
+}

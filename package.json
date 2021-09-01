@@ -1,0 +1,19 @@
+{
+  "main": "api/index.js",
+  "repository": "https://github.com/Astrotomic/og.opendor.me",
+  "author": "Tom Witkowski <gummibeer@astrotomic.info>",
+  "license": "CC-BY-NC-SA-3.0",
+  "private": true,
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "puppeteer-core": "^10.2.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^10.2.0"
+  }
+}
